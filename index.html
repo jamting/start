@@ -34,6 +34,30 @@
         padding:10px;
       }
 
+     .links {
+         width:40%;
+         margin:0 auto;
+         display:flex;
+         flex-direction:row;
+         justify-content: center;
+         padding:5px;
+         color:#222;
+         text-align:center;
+     }
+
+     .links a {
+         font-size: 18px;
+         font-family: 'Inter UI';
+	 color: #555;
+	 margin: 0 3px;
+	 text-decoration: none;
+     }
+
+     .links a:hover {
+         color: #000;
+	 text-decoration:underline;
+     }
+
       p{
         margin:0 0;
         padding:0 0;
@@ -232,11 +256,11 @@
       <a href="https://newsblur.com/">
         <i class="fas fa-rss-square fa-4x" aria-hidden="true"></i>
       </a>
+    </div>
 
-      <a href="https://svt.se/">
-        <i class="fas fa-share-alt-square fa-4x" aria-hidden="true"></i>
-      </a>
-
+    <div class="links">
+          <a href="https://op.se/">öp</a>
+          <a href="https://op.se/">svt</a>
     </div>
 
     <form method="get" action="https://www.google.com/search">
